@@ -1,0 +1,33 @@
+:root {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 0 300px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  border-bottom: solid 2px white;
+}

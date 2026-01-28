@@ -1,0 +1,15 @@
+a,
+h4 {
+  text-align: center;
+}
+
+td,
+th {
+  border-bottom: solid 1px white;
+}
+
+table {
+  padding: 10px;
+  border: solid 2px white;
+  border-radius: 15px;
+}

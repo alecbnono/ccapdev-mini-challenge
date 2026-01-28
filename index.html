@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles/index.css" />
     <title>About Me</title>
   </head>
   <body>
@@ -33,7 +34,12 @@
       </section>
       <section id="nutshell">
         <h2>Me in a nutshell</h2>
-        <img src="assets/profile-picture.png" alt="profile picture" height="200px">
+        <img
+          class="image"
+          src="assets/profile-picture.png"
+          alt="profile picture"
+          height="200px"
+        />
         <p>Alec Nono</p>
         <p>"I hate programming, its awesome"</p>
         <ul>
@@ -45,10 +51,25 @@
         <h2>Favorites</h2>
         <p id="video">Favorite Video</p>
         <video height="300px">
-          <source src="assets/skeleton.mp4" type="video/mp4">
+          <source src="assets/skeleton.mp4" type="video/mp4" />
         </video>
         <p id="audio">Favorite song on spotify</p>
-        <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/track/3ilfK8uTk4VB50GKtfKHTL?utm_source=generator" width="300" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe
+          data-testid="embed-iframe"
+          src="https://open.spotify.com/embed/track/3ilfK8uTk4VB50GKtfKHTL?utm_source=generator"
+          width="300"
+          height="100"
+          frameborder="0"
+          allowfullscreen=""
+          allow="
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            fullscreen;
+            picture-in-picture;
+          "
+          loading="lazy"
+        ></iframe>
       </section>
 
       <section>
@@ -91,7 +112,6 @@
           little details that make an experience memorable.
         </p>
       </section>
-
     </main>
   </body>
 </html>
